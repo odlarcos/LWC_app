@@ -2,18 +2,18 @@
     "data": [
         {
             "id": "1",
-            "name": "The Future of JavaScript",
-            "description": "Since its inception in 1995, JavaScript has become the most popular language of the web. With new additions to the ECMAScript standard there are no signs of slowing down on this. Gain insights in this spectacular keynote on what the future will hold."
+            "name": "JavaScript",
+            "description": "Often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.[7] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions."
         },
         {
             "id": "2",
-            "name": "Introducing Web Components",
-            "description": "With web components developers can embrace a true component based architecture, which utilizes core browser APIs. This makes them easily usable across any modern browser. Come and learn in this session what web components are all about, and how they can make your life easier."
+            "name": "HTML",
+            "description": "Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript."
         },
         {
             "id": "3",
-            "name": "Web Components Patterns and Best Practices",
-            "description": "You started developing your first web components, and now what? Join this interactive session and learn lessons from the field on how to build first class web component implementations."
+            "name": "CSS",
+            "description": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript."
         }
     ]
 }
