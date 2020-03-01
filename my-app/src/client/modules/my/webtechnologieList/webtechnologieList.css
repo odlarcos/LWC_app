@@ -1,0 +1,31 @@
+:host {
+    width: 100%;
+    padding: 2rem;
+    color: #080707;
+}
+.webtechnologie {
+    width: 30%;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    text-align: left;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid #dddbda;
+    align-items: center;
+    border-left: 3px solid #a20000;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.webtechnologie:hover {
+    background-color: #c63e26;
+    cursor: pointer;
+    text-decoration: none;
+}
+.webtechnologie p {
+    margin: 0;
+}
+.webtechnologie .title {
+    font-weight: 600;
+    font-size: 1.2rem;
+}

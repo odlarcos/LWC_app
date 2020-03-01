@@ -1,0 +1,21 @@
+<template>
+    <div class="list">
+        <template
+            for:each={webtechnologies}
+            for:item="webtechnologie"
+            for:index="index"
+            class="slds-grid slds-gutters"
+        >
+            <a
+                key={webtechnologie.id}
+                class="webtechnologie"
+                data-index={index}
+                onclick={handleWebtechnologieClick}
+            >
+                <div>
+                    <p class="title">{webtechnologie.name}</p>
+                </div>
+            </a>
+        </template>
+    </div>
+</template>

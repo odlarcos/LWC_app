@@ -1,0 +1,19 @@
+<template>
+    <header>
+        <img src="resources/oscar.png" alt="Logo" />
+        <h2>Web technologies</h2>
+    </header>
+    <main class="content">
+        <!-- Add components here -->
+        <template if:true={isStateList}>
+            <my-webtechnologie-list
+                onnavigate={handleNavigate}
+            ></my-webtechnologie-list>
+        </template>
+        <template if:true={isStateDetails}>
+            <my-webtechnologie-details
+                webtechnologie-id={webtechnologieId}
+            ></my-webtechnologie-details>
+        </template>
+    </main>
+</template>
